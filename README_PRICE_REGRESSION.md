@@ -2,7 +2,7 @@
 
 This folder contains the price-regression related code extracted from:
 
-`/home/policelab_l40s/llm_prompt/llm_prompt`
+`./llm_prompt/llm_prompt`
 
 Included code:
 
