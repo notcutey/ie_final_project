@@ -25,14 +25,14 @@ Not copied:
 
 The copied scripts still use the original absolute default paths for data and checkpoints, for example:
 
-- `/home/policelab_l40s/llm_prompt/llm_prompt/project/merged_with_final_description.json`
-- `/home/policelab_l40s/llm_prompt/llm_prompt/project/images/segmentation_labels.json`
-- `/home/policelab_l40s/llm_prompt/llm_prompt/llm_machine/checkpoint_price_regression`
+- `./llm_prompt/llm_prompt/project/merged_with_final_description.json`
+- `./llm_prompt/llm_prompt/project/images/segmentation_labels.json`
+- `./llm_prompt/llm_prompt/llm_machine/checkpoint_price_regression`
 
 Run from this folder:
 
 ```bash
-cd /home/policelab_l40s/price_regression_code/llm_prompt
+cd ./price_regression_code/llm_prompt
 
 python train_price_regression_attention.py
 python train_price_regression_vision_only.py
